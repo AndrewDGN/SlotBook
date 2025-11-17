@@ -1,0 +1,111 @@
+  body {
+    background-color: #faf9f9;
+    font-family: "Segoe UI", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+  main.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .card {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-field {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
+  .form-field label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .form-field input, .form-field select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+
+  .btn {
+    width: 100%;
+    background-color: #7a0000;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: #a10000;
+  }
+
+  .btn-secondary {
+    width: 100%;
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .btn-secondary:hover {
+    background-color: #bbb;
+  }
+
+  .error {
+    background-color: #ffd2d2;
+    color: #7a0000;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+
+  a {
+    color: #7a0000;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  footer.site-footer {
+    margin-top: auto;
+    text-align: center;
+    background-color: #7a0000;
+    color: white;
+    padding: 10px;
+  }
+
+  .role-badge {
+    background: #7a0000;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
